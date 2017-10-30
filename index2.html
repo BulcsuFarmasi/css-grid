@@ -14,6 +14,10 @@
             grid-auto-rows: minmax(100px, auto);
         }
 
+        .nested {
+            display: grid;
+        }
+
         .wrapper > div {
             background-color: #eee;
             padding: 1em;
@@ -36,8 +40,10 @@
             aspernatur culpa est, eveniet ex ipsa ipsum iusto laboriosam
             maiores minima non, reprehenderit sed, similique ut vel. Autem, quo.
         </div>
-        <div>
-            Lorem ipsum dolor sit.
+        <div class="nested">
+            <div>Lorem.</div>
+            <div>Lorem.</div>
+            <div>Lorem.</div>
         </div>
         <div>
             Lorem ipsum dolor sit.
